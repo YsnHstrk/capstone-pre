@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'capstone_project', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': 'Yasin12345',
-        'HOST': 'database-v2.cm6sdmw70sor.us-east-1.rds.amazonaws.com',  # database endpoint is written here
+        'HOST': 'database-1.cm6sdmw70sor.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
 }
@@ -143,7 +143,7 @@ LOGIN_REDIRECT_URL = "blog:list"
 LOGIN_URL = "login"
 
 
-AWS_STORAGE_BUCKET_NAME = 'capstone-deneme-ysn' # please enter your s3 bucket name
+AWS_STORAGE_BUCKET_NAME = 'capstone-s3-yasin' # please enter your s3 bucket name
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_REGION_NAME = "us-east-1" # please enter your s3 region 
 AWS_DEFAULT_ACL = 'public-read'
