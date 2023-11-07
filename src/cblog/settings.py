@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'capstone_project', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
-        'PASSWORD': 'Yasin12345',
+        'PASSWORD': config('PASSWORD'),
         'HOST': 'database-1.cm6sdmw70sor.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
